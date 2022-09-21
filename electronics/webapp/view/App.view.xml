@@ -1,0 +1,11 @@
+<mvc:View controllerName="com.learn.electronics.controller.App"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content> 
+        <Text id="demotext" text="This is my first learning project"/>
+	<MessageStrip id="msg" text="A Toolbar's cet." class="sapUiTinyMargin" />
+
+        </content>
+    </Page>
+</mvc:View>
